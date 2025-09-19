@@ -41,7 +41,7 @@ const Contact = () => {
           </button>
         </div>
       </div>
-      <NewsletterBox />
+      <NewsLetterBox />
     </div>
   );
 };
