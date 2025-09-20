@@ -8,7 +8,8 @@ import {
 } from "../controllers/productController.js";
 import adminAuth from "../middleware/adminAuth.js";
 
-const upload = multer({ dest: "uploads/" });
+const storage = multer.memoryStorage();
+const upload = multer({storage:storage});
 const productRouter = express.Router();
 
 // Add Product (Protected)
