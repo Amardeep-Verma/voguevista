@@ -49,7 +49,7 @@ app.use(express.json());
 // --- ✅ CORS Configuration Fix ---
 // This allows both of your frontend applications to make requests.
 const corsOptions = {
-  origin: ["https://voguevista-frontend.vercel.app/"], // Add all frontend URLs here
+  origin: ["https://voguevista-frontend.vercel.app"], // Add all frontend URLs here
   optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
