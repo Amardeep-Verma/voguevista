@@ -25,7 +25,7 @@ const Contact = () => {
           </p>
           <p className="text-gray-500">
             {" "}
-            Tel : 827 728 282 <br /> Email: vermaamardeep86@gmail.com{" "}
+            Tel : 7340741973 <br /> Email: vermaamardeep86@gmail.com{" "}
           </p>
           <p className="font-semibold text-xl text-gray-600">
             {" "}
